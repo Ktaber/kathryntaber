@@ -7,6 +7,25 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>GA Press Release</title>\n</head>\n<body>\n	<h1>For Immediate Release </h1>\n	<p> General Assembly, which started in New York as a startup incubator, now offers classes and workshops in technology, design, and entrepreneurship, with campuses around the world in: </P>\n\n	<ul>\n	<li>Berlin</li>\n	<li>Boston</li>\n	<li>London</li>	\n	<li>Los Angeles</li>	\n	<li>New York City</li>	\n	<li>San Francisco</li>	\n	<li>Sydney</li>	\n	<li>Washington D.C.</li>	\n  </ul>\n  <p> For more information, visit General Assembly's \n  	<a href=\"https://generalassemb.ly/\">website</a></p>\n</body>\n</html>",
+			"file": "01/ga-press-release/index.html",
+			"file_size": 646,
+			"file_write_time": 1505866732000000,
+			"settings":
+			{
+				"buffer_size": 645,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fewd sublime-project.sublime-project",
+			"settings":
+			{
+				"buffer_size": 122,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -71,8 +90,61 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "01/ga-press-release/index.html",
+					"settings":
+					{
+						"buffer_size": 645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								629,
+								629
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "fewd sublime-project.sublime-project",
+					"settings":
+					{
+						"buffer_size": 122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
