@@ -1,0 +1,96 @@
+header{
+	margin-bottom: 15px;
+}
+
+footer{
+	margin-bottom: 15px;
+}
+
+header,
+footer,
+aside,
+section,
+nav {
+	background-color: purple;
+	min-height: 100px;
+}
+h1{
+	margin-left: 2%;
+}
+
+
+header{
+	width: 16%;
+	padding: 25px;
+	margin-left: 2%;
+
+}
+
+ header, nav {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.one{
+	width: 10%;
+	padding: 1px;
+	margin-right: 2%;
+	float:right;
+}
+
+.two{
+	width: 10%;
+	padding: 1px;
+	margin-right: 2%;
+	float: right;
+}
+
+.three{
+	width: 10%;
+	padding: 1px;
+	margin-right: 2%;
+	float: right;
+}
+
+.four{
+	width: 10%;
+	padding: 1px;
+	margin-right: 2%;
+	float: right;
+}
+
+aside{
+	margin-bottom: 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+#flex{
+	display: flex;
+	margin-bottom: 20px;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding: 10px;
+
+}
+#flex .left{
+	width: 32%;
+	margin-right: 2%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#flex .middle{
+	width: 32%;
+	margin-right: 2%;
+}
+#flex .right{
+	width: 32%
+}
+
+footer{
+	margin-right: 2%;
+	margin-left: 2%;
+}
