@@ -79,12 +79,14 @@ body{
 
    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
      background-size: cover;
+     width:100%;
 }
 
 h1{
   font-weight: 800; 
   color: white;
   font-size: 24px;
+  width:50%;
   margin-left: 50px;
   padding-bottom: 50px;
 }
@@ -104,7 +106,9 @@ h2{
   font-weight: 800;
   font-size: 14px;
   border-radius: 5px;
-  width: 100%; 
+  width: 15%; 
+  margin-left: 40%;
+  margin-right: 40%;
   background-color: #f9e42e;
   padding: 10px;
 }
@@ -140,7 +144,7 @@ h3{
 #quote{
   background: url(https://github.com/WyleshaRachell/GA-FEWD/blob/master/Week_02_Styling/Assignment/starter_code/images/testimonial_bg.jpg?raw=true);
   width: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 blockquote{
@@ -148,20 +152,24 @@ blockquote{
   font-size: 18px;
   text-align: center;
   color: grey;
+  padding-top: 40px;
 }
 cite{
   color: white;
   font-weight: 400;
   font-size: 18px;
-  width: 100%;
-  margin-left: 40%;
-  margin-right: 40%;
+  /*width: 100%;*/
+  /*margin-left: 40%;
+  margin-right: 30%;*/
+  margin-left: 450px;
+
 }
 
 #signup{
    background-color: #f9e42e;
-   /*width:100%;*/
-   padding: 20px;
+   width:100%;
+   padding-bottom: 30px;
+   padding-top: 30px;
 }
 
 #signup p{
@@ -170,10 +178,10 @@ cite{
   font-size: 12px;
   text-align: center;
   border-radius :5px;
-  border: 10px;
-  /*border-left: 10px;
-  border-right:10px;*/
-
+  width: 20%;
+  margin-left: 39%;
+  margin-right: 35%;
+  padding: 10px;
   color: white;
 
 }
@@ -192,9 +200,9 @@ cite{
 }
 
 #end img{
-  max-width: 100%;
-  height: 30%;
-  padding: 10px;
+  max-width: 10%;
+  min-height: 30%;
+  margin-left: 37%;
 }
 
 #end footer{
