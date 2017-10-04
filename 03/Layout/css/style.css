@@ -1,9 +1,14 @@
+*{
+	box-sizing: border-box;
+}
+
 #twocolumn header,
 #twocolumn footer,
 #twocolumn aside,
 #twocolumn section {
 	background-color: grey;
 	min-height: 100px;
+	border: 1px solid black;
 }
 
 #twocolumn header{
@@ -25,13 +30,13 @@
 
 #twocolumn aside{
 	width: 25%;
-	float: left;
-
+	margin-left: 75%;
 }
 
 #twocolumn .floats{
 	height: 1px;
 	min-height: 100px;
+	background-color: red;
 }
 
 #twocolumn2 header,
