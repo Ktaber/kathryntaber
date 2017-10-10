@@ -103,18 +103,16 @@ li{
 }
 
 div {
-  margin-left: 30px;
+  /*margin-left: 30px;*/
   overflow: hidden;
   margin-right: 10px;
 }
 
-h2 
-img 
-p 
-h3{
+section {
   width: 700px;
   float: left;
   padding-right: 10px;
+  margin-left: 40px;
 }
 
 h2{
@@ -133,12 +131,27 @@ h3{
   padding-top: 20px;
 }
 
+.more{
+  text-align: right;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.more2{
+  text-align: right;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 100px;
+}
+
 aside {
   min-height: 0;
   width: 240px;
   float: right;
   color: #033048;
   padding: 10px;
+  margin-right: 20px;
 }
 
 .cat{
@@ -161,30 +174,13 @@ li{
   font-size: 24px;
   font-weight: 300;
   padding-top: 20px;
+  /*padding-right: 10px;*/
 }
 
 aside h3{
   padding-bottom: 30px;
 }
 
-
-/*#traveled{
-  width: 700px;
-  color:#033048;
-  padding-bottom: 70px;
-}
-
-#traveled h2{
-  font-weight: 600;
-  font-size: 40px;
-}
-
-#traveled h3{
-  font-size: 24px;
-  font-weight: 600;
-  text-align: right;
-  padding-top: 20px;
-}*/
 
 
 
@@ -202,7 +198,7 @@ aside h3{
   width: 20%;
   margin-left: 40%;
   margin-right: 35%;
-  padding: 10px;
+  padding: 20px;
   color: white;
 
 }
