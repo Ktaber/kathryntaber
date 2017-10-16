@@ -49,6 +49,7 @@ Developer @GA in NYC
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -66,6 +67,7 @@ body {
 
 /* Center the container */
 #container {
+ /* max-width: 960px;*/
   width: 100%;
   margin: auto;
   background-color: #033048;
