@@ -1,0 +1,351 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"border",
+				"border-image"
+			],
+			[
+				"margn",
+				"margin-right"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"sty",
+				"list-style"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"padi",
+				"padding-bottom"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"inlin",
+				"inline"
+			],
+			[
+				"row",
+				"row3"
+			],
+			[
+				"ro",
+				"row3"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"align",
+				"vertical-align"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"pddin",
+				"padding-top"
+			],
+			[
+				"MArgin",
+				"margin-right"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"hei",
+				"line-height"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"font-",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/katietaber/Sites/KathrynTaber/03/Homework/css/style.css",
+		"/Users/katietaber/Sites/KathrynTaber/03/Homework/index.html",
+		"/Users/katietaber/Sites/KathrynTaber/03/Layout/css/style.css",
+		"/Users/katietaber/Sites/KathrynTaber/03/Layout/index.html",
+		"/Users/katietaber/Sites/KathrynTaber/03/Magazine/index.html",
+		"/Users/katietaber/Sites/KathrynTaber/03/Magazine/css/style.css",
+		"/Users/katietaber/Sites/KathrynTaber/03/Marketing with Nav/index.html",
+		"/Users/katietaber/Sites/KathrynTaber/03/Marketing with Nav/css/style.css",
+		"/Users/katietaber/Sites/KathrynTaber/03/Three-Column/css/style.css",
+		"/Users/katietaber/Sites/KathrynTaber/03/Simple Marketing/css/style.css",
+		"/Users/katietaber/Sites/KathrynTaber/03/Three-Column/index.html",
+		"/Users/katietaber/Sites/KathrynTaber/03/Simple Marketing/index.html",
+		"/Users/katietaber/Sites/KathrynTaber/03/error_message/css/style.css",
+		"/Users/katietaber/Sites/KathrynTaber/03/error_message/index.html",
+		"/Users/katietaber/Sites/KathrynTaber/03/Homework/css/reset.css",
+		"/Users/katietaber/Sites/KathrynTaber/03/Homework/css/normalize.css",
+		"/Users/katietaber/Sites/KathrynTaber/nested_selectors/index.html",
+		"/Users/katietaber/Sites/KathrynTaber/nested_selectors/css/style.css",
+		"/Users/katietaber/Sites/KathrynTaber/tags_boxes/css/style.css",
+		"/Users/katietaber/Sites/KathrynTaber/02/resume/css/style.css",
+		"/Users/katietaber/Sites/KathrynTaber/02/resume/css/portfoliostyle.css",
+		"/Users/katietaber/Sites/KathrynTaber/02/resume/index.html",
+		"/Users/katietaber/Sites/KathrynTaber/02/resume/portfolio.html",
+		"/Users/katietaber/Sites/KathrynTaber/01/Best Cookies/index.html",
+		"/Users/katietaber/Sites/KathrynTaber/02/bestcookie-recipe/css/untitled",
+		"/Users/katietaber/Sites/KathrynTaber/01/ga-press-release/index.html",
+		"/Users/katietaber/Desktop/<h1> Hello World <:h1>"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 125.0,
+	"status_bar_visible": true
+}
