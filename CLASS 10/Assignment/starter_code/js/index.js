@@ -2,24 +2,24 @@
 
 // 1. When user submits the form: get input field value
 // variables
-// var cityType = "input";
-var update = $('#submit-btn');
+// var cityType = "input";initial variable made before I realized var cityType was already implemented in the .susbmit function
 var images = [
-		'images/citipix_skyline.jpg',
-		'../images/nyc.jpg',
+		'images/nyc.jpg',
 		'images/sf.jpg',
 		'images/la.jpg',
 		'images/austin.jpg',
 		'images/sydney.jpg',
 	];
 
-i=0;
+// i=0; don't need to use this
 
-// forms// click event//
+// forms// initially given
+// need to do .submit bc allows enter key to submit as well
        $(document).ready(function() {
       $('form').submit(function(event) {
-        var cityType = $('input').val();
+        var cityType = $('input').val().toLowerCase();
  // value of what you want to happen when you input in the field
+
         changeBackground(cityType);
      
 
@@ -48,39 +48,38 @@ function changeBackground (cityType){
 // comparing types of input values to each other
 // adding the function to have the background image change with the city
 
-	if (cityType === "New York" || cityType === "New York City" || cityType  === "NYC"){
+	if (cityType === "new york" || cityType === "new york city" || cityType  === "nyc"){
 			console.log('background to New York City image');
-		
-			$('#city-type').css("background-image", url('../images/nyc.jpg'));	
+			$('body').addClass('nyc');
+			
 		}
 
-		else if (cityType  === "San Francisco" || cityType  === "SF" || cityType  === "Bay Area"){
+		else if (cityType  === "san francisco" || cityType  === "sf" || cityType  === "bay area"){
 			console.log('background to San Francisco image');
-			$('#city-type').css("background-image", "images/sf.jpg");
+			$('body').addClass('sf');
 		}
 
-		else if (cityType  === "Los Angeles" || cityType  === "LA" || cityType  === "LAX"){
+		else if (cityType  === "los angeles" || cityType  === "la" || cityType  === "lax"){
 			console.log('background to Los Angeles image');	
-			$('#city-type').css("background-image", "images/la.jpg");
+			$('body').addClass('la');
 		}
 
-		else if (cityType  === "Austin" || cityType  === "ATX"){
+		else if (cityType  === "austin" || cityType  === "atx"){
 			console.log('background to Austin image');
-			$('#city-type').css("background-image", "images/austin.jpg");
+			$('body').addClass('austin');
 		}
 		
-		else if (cityType  === "Sydney" || cityType  === "SYD"){
+		else if (cityType  === "sydney" || cityType  === "syd"){
 			console.log('background to Sydney image');
-			$('#city-type').css("background-image", "images/sydney.jpg");
+			$('body').addClass('sydney');
 			
 
 		}
-		else {
-			$('#city-type').css("background-image", "images/citipix_skyline.jpg");
-	}
 };
 
 
+
+// tried to do .attr(), before css was implemented
 // using .attr() to include images attached to their name
 
 	// function changeBackground (cityType){
