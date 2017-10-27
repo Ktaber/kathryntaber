@@ -10,7 +10,7 @@ The team from Relaxr is back...again! They want their page to be more interactiv
 
 Student: Kathryn Taber
 
-Project URL: https://github.com/Ktaber/kathryntaber/tree/master/KateBrinkley/08/Assignment
+Project URL: https://github.com/Ktaber/kathryntaber/tree/master/Week_04_Intro_Programming/JavaScript%20Relaxr
 
 |                                                                                                                                                                                                                     |                                |                        |                          |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|------------------------|--------------------------|
