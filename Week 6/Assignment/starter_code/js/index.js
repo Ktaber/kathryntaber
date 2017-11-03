@@ -1,4 +1,4 @@
-// want someone to enter a variable (cityType) using the drop down arrows.. this will then change the background to a picture of the city picked
+// want someone to choose a variable (cityType) using the drop down arrows.. this will then change the background to a picture of the city picked
 
 // 1. need to establish the variables for the array of the cities
 
@@ -51,7 +51,7 @@ for (var i=0;
 	if (city == "NYC"){
 			// console.log('background to New York City image');
 			$('body').addClass('nyc');
-		console.log(nyc);
+		
 
 		}
 

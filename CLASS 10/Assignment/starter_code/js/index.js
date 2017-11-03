@@ -18,6 +18,8 @@ var images = [
        $(document).ready(function() {
       $('form').submit(function(event) {
         var cityType = $('input').val().toLowerCase();
+        $('body').attr('class', '');
+
  // value of what you want to happen when you input in the field
 
         changeBackground(cityType);
