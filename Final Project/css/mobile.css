@@ -1,0 +1,118 @@
+
+*{
+	box-sizing: border-box;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower');
+
+
+header{
+	background-color: purple;
+	border-bottom:15px solid green;
+	padding: 10px 50px;
+	overflow: hidden;
+}
+
+nav{
+	overflow: hidden;
+	color: green;
+	float: right;
+	display: none;
+}
+
+footer{
+	background-color: purple;
+	color: yellow;
+	padding: 30px;
+	font-size: 15px;
+}
+
+
+
+#intro h1{
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 70px;
+	color: yellow;
+	overflow: hidden;
+}
+
+#intro p{
+	text-transform: lowercase;
+	font-size: 40px;
+	margin-left: 20%;
+}
+#intro nav ul li{
+	float: right;
+	list-style: none;
+	margin-right: 10px;
+	font-size: 20px;
+	padding-right: 15px;
+	font-family: 'Inconsolata', monospace;
+}
+
+#blurb{
+	width: 100%;
+}
+
+#blurb h2{
+	padding-top: 20px;
+	font-size: 30px;
+	padding-bottom: 15px;
+	background:url(../images/veggies.jpeg) no-repeat center center;
+}
+
+.join{
+	margin-left:30%;
+
+}
+
+input{
+	padding: 10px;
+	width: 40%;
+	margin-right: 15px;
+}
+
+button{
+	color: black;
+	background-color: yellow;
+	width: 10%;
+	padding: 10px;
+}
+
+
+/*
+#categories{
+	overflow: hidden;
+	padding: 5px;
+}
+
+#categories .recepies
+#categories .restaurants
+#categories .goods
+{
+	
+	width: 33.3%;
+	float: right;
+
+}*/
+
+/*desktop version*/
+@media (min-width: 768px){
+	nav{
+		overflow: hidden;
+		color: green;
+		float: right;
+		display: inline;
+}
+
+
+
+
+}
