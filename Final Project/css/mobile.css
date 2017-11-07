@@ -13,7 +13,7 @@
 
 header{
 	background-color: purple;
-	border-bottom:15px solid green;
+	border-bottom:15px solid black;
 	padding: 10px 50px;
 	overflow: hidden;
 }
@@ -32,6 +32,9 @@ footer{
 	font-size: 15px;
 }
 
+ul{
+	list-style-type: none;
+}
 
 
 #intro h1{
@@ -51,57 +54,140 @@ footer{
 #intro nav ul li{
 	float: right;
 	list-style: none;
-	margin-right: 10px;
+	margin-right: 5px;
 	font-size: 20px;
-	padding-right: 15px;
+	padding-right: 10px;
 	font-family: 'Inconsolata', monospace;
+	/*display: none;*/
+}
+
+.hamburgerMenu{
+	float: right;
+	width: 100px;
+	display: inline;
+	position: absolute;
+
+}
+
+hr{
+	padding-bottom: 5px;
+    border: 0;
+    height: 4px;
+    background-color: green;
+    margin: 10px;
+    border-radius: 2px;
 }
 
 #blurb{
 	width: 100%;
+	padding-bottom: 35%;
+	background:url(../images/veggies.jpeg) no-repeat center center;
+	background-size: cover;
 }
 
 #blurb h2{
 	padding-top: 20px;
-	font-size: 30px;
-	padding-bottom: 15px;
-	background:url(../images/veggies.jpeg) no-repeat center center;
+	padding-bottom: 30px;
+	color: white;
+	font-size: 50px;
+	margin-left: 70px;
 }
 
 .join{
 	margin-left:30%;
+	padding-top: 100px;
 
 }
 
-input{
+#email {
 	padding: 10px;
 	width: 40%;
 	margin-right: 15px;
+	background-color: white;
 }
 
-button{
+input {
 	color: black;
 	background-color: yellow;
 	width: 10%;
 	padding: 10px;
+	border-radius: 5px;
 }
 
 
-/*
-#categories{
+
+#cat{
 	overflow: hidden;
 	padding: 5px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: auto;
+	background-color: grey;
+
 }
 
-#categories .recepies
-#categories .restaurants
-#categories .goods
-{
-	
-	width: 33.3%;
-	float: right;
+.recipes {
+	border: 3px;
+	width: 100%;
+	display: inline;
+	margin: auto;
+	padding: 5px;
+	color: yellow;
+	font-family: 'Indie Flower', cursive;
+	font-size: 25px;
+	background-color: rgba(255,255,255,0.7);
+}
 
-}*/
+
+.restaurants {
+	border: 3px;
+	width: 100%;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	padding-bottom: 20px;
+	color: yellow;
+	font-family: 'Indie Flower', cursive;
+	font-size: 25px;
+	background-color:rgba(255,255,255,0.7);
+}
+
+.goods {
+	border: 3px;
+	width: 100%;
+	display: inline;
+	margin: auto;
+	padding: 10px;
+	padding-bottom: 60px;
+	color: yellow;
+	font-family: 'Indie Flower', cursive;
+	font-size: 25px;
+	background-color:rgba(255,255,255,0.7);
+}
+
+.recipes ul {
+	color: black;
+	font-family: 'Inconsolata', monospace;
+	font-size: 18px;
+	margin-left: 15px;
+
+}
+
+.restaurants ul{
+	color: black;
+	font-family: 'Inconsolata', monospace;
+	font-size: 18px;
+	margin-left: 15px;
+}
+
+.goods ul{
+	color: black;
+	font-family: 'Inconsolata', monospace;
+	font-size: 18px;
+	margin-left: 15px;
+}
+
+
 
 /*desktop version*/
 @media (min-width: 768px){
@@ -112,7 +198,28 @@ button{
 		display: inline;
 }
 
+.recipes
+{	
+	width: 33%;
+	margin-right: .3%;
+	float: left;
+}
+.restaurants
+{	
+	width: 33%;
+	margin-right: .3%;
+	float: left;
+}
+.goods
+{	
+	width: 33%;
+	margin-right: .3%;
+	float: right;
+}
 
-
+.hamburgerMenu{
+	display: none;
+	
+}
 
 }
