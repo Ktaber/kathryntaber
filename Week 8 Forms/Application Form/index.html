@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+	<header>Course Application</header>
+	<section id="container">
+		<!-- <h1>Course Application</h1> -->
+			<h2>Your Contact Info</h2>
+
+			<form action="#" method="POST">
+				<div>
+					<label for="name">Your Name</label>
+					<input type="text" placeholder="John" id="firstName" name="firstName">
+					<input type="text" placeholder="Doe" id="lastName" name="lastName">
+				</div>
+
+				<div id="cell">
+					<label for="phone">Phone Number</label>
+					<input type="text" placeholder="" id="phone" name="phone" maxlength="3">
+					<input type="text" placeholder="" id="phone2" name="phone2" maxlength="3">
+					<input type="text" placeholder="" id="phone3" name="phone3" maxlength="4">
+				</div>
+
+				<div id="residence">
+					<label for="address">Address</label>
+					<input type="text"
+					placeholder="Street Address" id="street"
+					name="street">
+				</div>
+				<div>
+					<input type="text"
+					placeholder="Address Line 2" id="line2"
+					name="line2">
+				</div>
+				<div id="address">
+					<input type="text"
+					placeholder="City" id="city"
+					name="city">
+					<input type="text"
+					placeholder="State" id="state"
+					name="state">
+					<input type="text"
+					placeholder="Postal Code" id="code"
+					name="code" maxLength="5">
+				</div>
+		
+		<h2>Skills & Intrests</h2>
+				<div>
+					<label for="course">Course</label>
+					<select id="courseType">
+						<optgroup label="web development"></optgroup>
+							<option value="front">Front-End</option>
+							<option value="back">Back-End</option>
+						<optgroup label="design">Design</optgroup>
+							<option value="visualdesign">Visual Design</option>
+							<option value="userexperiece">User Experience</option>
+					</select>
+
+				</div>
+				<div id="past">
+					<label for="past">Past Experience</label>
+					<textarea id="pastExperience" rows="4" cols="50"></textarea>
+
+				</div>
+
+		<h2>Anything Else?</h2>
+				<div>
+					<label for="referral">Referral</label>
+					<select id="referralType">
+							<option value="none">None</option>
+							<option value="friend">Friend</option>
+							<option value="instructor">Instructor</option>
+							<option value="online">Online</option>
+					</select>
+				</div>
+				<div id="comments">
+					<label id="words"for="comments">Comments</label>
+					<textarea id="statement" rows="4" cols="50"></textarea>
+				</div>
+
+				<div id="buttons">
+					<button>Save Draft</button>
+					<button>Submit</button>	
+
+				</div>
+			</form>
+	</section>
+	
+</body>
+</html>

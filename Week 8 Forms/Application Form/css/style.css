@@ -1,0 +1,131 @@
+body{
+	border: 1px solid grey;
+	border-radius: 10px;
+	margin-left: 10%;
+	margin-right:10%;
+	background-color: white;
+	padding-bottom: 50px;
+}
+
+header{
+	color: grey;
+	background-color: lightgrey;
+	padding: 30px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 25px;
+
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2{
+	font-size: 20px;
+	padding-bottom: 15px;
+	/*margin-left: 10px;*/
+}
+
+input{
+	background-color: #ffdab9 ;
+}
+
+textarea{
+	margin-top: 20px;
+	background-color: #ffdab9 ;
+}
+
+label{
+	width: 30%;
+	text-align: right;
+	margin-left: 10px;
+	margin-right: 20%;
+}
+
+#firstName{
+	margin-left: 25px;
+}
+
+#cell{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#phone{
+	margin-left: 1.5px;
+}
+
+
+#street{
+	margin-left: 45px;
+	width: 48.5%;
+}
+
+#line2,
+#city {
+	margin-left: 33.6%;
+}
+
+#line2,
+#city,
+#state,
+#code{
+	margin-top: 10px;
+}
+
+#city,
+#state,
+#code{
+	width:15.4%;
+}
+
+#line2{
+	width:48.5%;
+}
+
+#courseType{
+	margin-left: 6.5%;
+}
+
+#referralType{
+	margin-left: 6%;
+
+}
+
+#comments,
+#past{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#comments{
+	margin-right: -130%;
+}
+
+#past{
+	margin-right: -8%;
+}
+
+#buttons{
+	margin-left: 10px;
+	margin-right: 20%;
+}
+textarea {
+	display: block;
+	margin: auto;
+}
+
+#statement{
+	margin-left: 15%;
+}
+
+
+
+label + input {
+  /*  width: 30%;*/
+    /*margin: 0 30% 0 4%;
+    display: inline;*/
+}
+
+
