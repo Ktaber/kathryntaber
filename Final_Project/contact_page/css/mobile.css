@@ -1,0 +1,81 @@
+body{
+	background-color: purple;
+}
+
+
+form{
+
+	margin-left:20%;
+	margin-right: 20%;
+	background-color: lightgrey;
+}
+
+h1{
+	color: yellow;
+}
+h1,
+p {
+	text-align: center;
+}
+
+/*p{
+	margin-left: 24%;
+}*/
+
+h3 {
+	padding-bottom: 8px;
+	margin-left: 10px;
+}
+
+#name{
+	padding-top: 20px;
+}
+
+footer{
+	font-size: 25px;
+	margin-top: 40px;
+	background-color: purple;
+	color: yellow;
+	text-align: center;
+	width: 100%;
+	border-top: 8px solid black;
+	padding-top: 20px;
+
+}
+
+textarea{
+	margin-bottom: 10px;
+}
+
+input,
+textarea,
+select {
+	margin-left: 10px;
+	padding-bottom: 30px;
+}
+
+.loginError{
+	display: none;
+	color:red;
+}
+
+#fullName,
+#email,
+#event {
+	width:60%;
+	min-height: 30px;
+	padding: 5px;
+}
+
+#submit{
+	width: 25%;
+	margin-bottom: 20px;
+}
+
+img{
+	width: 8%;
+	max-height: 10%; 
+	padding-top: 10px;
+}
+/*desktop version*/
+@media (min-width: 768px)

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us</title>
+
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mobile.css">
+
+</head>
+<body>
+	
+	<h1>Send Us A Message</h1>
+	<p>Usually responds within 24hrs</p>
+
+	<form action="#" method="POST" id="info">
+		
+		<div>
+			<!-- <label for="name">Name</label> -->
+			<h3 id="name">Name*</h3>
+		</div>
+		<div>
+			<input type="text" placeholder="Full Name" id="fullName" name="">
+			<p class="loginError">Please Enter Your Full Name</p>
+		</div>
+
+		<div>
+			<!-- <label for="email">Email</label> -->
+			<h3>Email*</h3>
+		</div>
+		<div>
+			<input type="text" placeholder="name@gmail.com" id="email" name="email">
+			<p class="loginError">Please Enter Your Email</p>
+		</div>
+
+		<div>
+			<!-- <label for="hearAboutUs">How Did You Hear About Us?</label> -->
+			<h3>How Did You Hear About Us?</h3>
+		</div>
+		<div>
+			<input type="text" placeholder="Event" id="event" name="">
+			<p class="loginError">Please Enter Your Response</p>
+		</div>
+
+		<div>
+			<!-- <label for="joinEmailList">Did You Join Our Email List?</label> -->
+			<h3>Did You Join Our Email List?</h3>
+		</div>
+		<div id="list">
+			<input type="checkbox" id="checkbox1" name="join">
+			<label>Yes</label>
+			<input type="checkbox" id="checkbox2" name="join">
+			<label>No</label>
+		</div>
+
+		<div>
+			<!-- <label for="choices">What Intrested You The Most On Our Website?</label> -->
+			<h3>What Intrested You The Most On Our Website?</h3>
+		</div>
+		<div>
+			<select id="choices">
+				<option value="recipes">Recipes</option>
+				<option value="restaurants">Restaurants</option>
+				<option value="goods">Goods</option>
+			</select>
+		</div>
+
+		<div>
+			<!-- <label id="words"for="comments">Comments/Suggestions</label> -->
+			<h3>Comments/Suggestions</h3>
+		</div>
+		<div>	
+			<textarea id="statement" rows="6" cols="60"></textarea>
+		</div>
+
+		<div>
+			<input type="submit" name="submit" id="submit" value="Submit">
+			<button>Go Back</button>
+
+		</div>
+	</form>
+</body>
+	<footer>The Best Life is Cruelty Free... Thanks for Veggin' out with us!!! 
+		<div> <img src="images/veggie_icons.jpg">
+		</div>  
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="js/index2.js"></script>
+
+</html>

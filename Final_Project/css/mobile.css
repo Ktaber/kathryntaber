@@ -25,6 +25,10 @@ nav{
 	display: none;
 }
 
+a{
+	color: green;
+}
+
 footer{
 	background-color: purple;
 	color: yellow;
@@ -124,6 +128,14 @@ input {
 	margin: auto;
 	background-color: grey;
 
+}
+
+h2{
+	color: yellow;
+}
+
+h2.changeColor{
+	color: green;
 }
 
 .recipes {
