@@ -1,0 +1,84 @@
+
+body{
+	background-color: green;
+}
+h1{
+	font-weight: bold;
+	padding: 20px 0px 20px 0px;
+	background-color: black;
+}
+
+h1,
+#quote {
+	font-size: 40px;
+	text-align: center;
+	width:100%;
+	color: yellow;
+}
+
+.am,
+.lunch,
+.dinner,
+.sweets,
+.snacks{
+	font-size: 25px;
+	padding-bottom: 25px;
+	text-decoration: underline;
+	list-style: none;
+	color: white;
+
+}
+
+footer{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: yellow;
+	background-color: black;
+	width:100%;
+}
+
+#food{
+	overflow: hidden;
+}
+
+#sidebar{
+	width: 15%;
+	margin-left: 5%;
+	float: left;
+}
+
+section{
+	float: right;
+	font-size: 20px;
+	margin-right: 10%;
+	width:60%;
+	/*display: none;
+*/}
+
+p{
+	padding-left: 15px;
+}
+
+.tofu1,
+.tuna,
+.veggie,
+.rice,
+.cupcakes,
+.chick,
+.stuff,
+.one,
+.stuff2,
+.two,
+.stuff3,
+.three,
+.stuff4,
+.four,
+.stuff5,
+.five,
+h5
+ {
+	display: none;
+}
+
