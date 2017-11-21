@@ -20,6 +20,10 @@ $(document).ready(function() {
     	$(this).toggleClass('changeColor');
     	});
 
+    // $('.about').hover(function() {
+
+    //     $(this).toggleClass('changeColor');
+    //     });
 
     function gohome(){
     	window.location.href ="Final_Project/index.html";
