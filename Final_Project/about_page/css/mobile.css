@@ -5,7 +5,7 @@
 }
 
 body{
-	background-color: green;
+	background-image: url(http://images.all-free-download.com/images/graphiclarge/simple_and_elegant_pattern_wallpaper_highdefinition_picture_2_169822.jpg);
 }
 
 h1{
@@ -13,10 +13,30 @@ h1{
 	text-transform: uppercase;
 	text-align: center;
 	background-color: black;
+	font-size: 25px;
+}
+
+nav{
+	overflow: hidden;
+	float: right;
+	display: none;
+}
+
+.home{
+		display: inline;
+		float: right;
+		text-overflow: hidden;
+		font-size: 20px;
+		padding-top: 20px;
+		color: white;
+	}
+
+a{
+	color: yellow;
 }
 
 h3{
-	color: white;
+	color: black;
 	padding-top: 30px;
 	padding-bottom: 15px;
 }
@@ -35,15 +55,18 @@ img{
 ul,
 #why {
 	font-size: 22px;
-	color: yellow;
+	color: blue;
 	display: none;
+	margin-left: 20px;
+	padding-bottom: 20px;
 }
 
 #intro{
 	text-align: center;
 	margin-left: 80px;
 	margin-right: 80px;
-	color: white;
+	color: blue;
+	padding-bottom: 30px;
 }
 
 #background,
@@ -53,21 +76,22 @@ ul,
 .background{
 	font-size: 20px;
 	display: none;
-	color: white;
+	color: black;
 }
 
 #was,
 #one {
-	color: yellow;
+	color: blue;
 	font-family: bold;
 }
 
 
 #research{
 	text-align: center;
-	color: white;
+	color: blue;
 	font-size: 40px;
 	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 footer{
@@ -75,4 +99,23 @@ footer{
 	text-align: center;
 	padding-bottom: 20px;
 	padding-top: 20px;
+}
+
+@media (min-width: 768px){
+
+	body{
+	margin: auto;
+	width: 100%;
+	}
+
+	nav{
+	text-overflow: hidden;
+	color: white;
+	float: right;
+	display: inline;
+	font-size: 15px;
+	}
+
+
+
 }
