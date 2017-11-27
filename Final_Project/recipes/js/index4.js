@@ -7,7 +7,6 @@ $(document).ready(function() {
     	$('.tofu1').show();
     	$('.stuff').show();
     	$('.one').show();
-    	$(img)
     });
 
     $('.lunch').click(function(){
@@ -35,5 +34,4 @@ $(document).ready(function() {
     	console.log('hey');
 	});
 
- 	event.preventDefault();
 });
