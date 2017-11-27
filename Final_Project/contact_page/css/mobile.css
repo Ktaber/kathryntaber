@@ -18,15 +18,34 @@ form{
 
 h1{
 	color: yellow;
+	padding-top: 20px;
+	text-align: center;
 }
+
+nav{
+	overflow: hidden;
+	float: right;
+	display: none;
+
+}
+
+a{
+	color: yellow;
+	font-size: 20px;
+}
+
+.home {
+	margin-right: 20px;
+}
+
 h1,
 p {
 	text-align: center;
 }
 
-/*p{
-	margin-left: 24%;
-}*/
+p{
+	font-size: 9px;
+}
 
 h3 {
 	padding-bottom: 8px;
@@ -84,4 +103,12 @@ img{
 	padding-top: 10px;
 }
 /*desktop version*/
-@media (min-width: 768px)
+@media (min-width: 768px){
+	nav{
+	text-overflow: hidden;
+	color: white;
+	float: right;
+	display: inline;
+	font-size: 15px;
+	}
+}
