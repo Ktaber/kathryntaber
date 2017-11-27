@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/637524/1360/929/m1/fpnw/wm1/frharpi1twyyfk4mnrdjgfdssvz5u0yoompjge6xmcdo1qabd9m8i5hiethhupo8-.jpg?1441272064&s=393e17adeb184fbbc6d9c85bfba64468);
+}
+
+
+h1{
+	color: yellow;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 40px;
+	text-overflow: hidden;
+}
+
+nav{
+	overflow: hidden;
+	color: green;
+	float: right;
+	display: none;
+}
+
+a{
+	color: yellow;
+}
+.home {
+	float: right;
+	margin-right: 40px;
+	list-style-type: none;
+	font-size: 5px;
+	display: none;
+	color: white;
+}
+
+p{
+	color: white;
+	font-size: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 40px;
+	width: 100%;
+	text-align: center;
+
+}
+
+
+img{
+	padding-top: 30px;
+	margin: auto;
+	display: block;
+	width: 60%;
+}
+
+#prevButton,
+#nextButton {
+	width: 100px;
+	background-color: yellow;
+	color: white;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	padding: 5px;
+}
+
+#buttons-wrapper{
+	padding-top: 40px;
+	margin-left: 40%;
+}
+
+
+
+
+
+
+@media (min-width: 768px){
+	body{
+	margin: auto;
+	width: 100%;
+	}
+
+	h1{
+	font-size: 60px;
+	font-weight: bold;
+	}
+
+	.home{
+		display: inline;
+		float: right;
+		text-overflow: hidden;
+		font-size: 20px;
+		padding-top: 20px;
+		color: white;
+	}
+
+	nav{
+	text-overflow: hidden;
+	color: white;
+	float: right;
+	display: inline;
+	font-size: 15px;
+	}
+
+	p{
+	width: 100%;
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
+	}
+
+	img{
+	margin: auto;
+	display: block;
+	width: 70%;
+	height: 40%;
+
+}
+
+}
