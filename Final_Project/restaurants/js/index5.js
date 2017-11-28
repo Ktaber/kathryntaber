@@ -33,7 +33,11 @@ $(document).ready(function(){
 		$('#image').attr('src', images[i]);
 	});
 
-
+	 $('#pictures').hover( function() {
+        $(this).find('.img-title').fadeIn(300);
+    }, function() {
+        $(this).find('.img-title').fadeOut(100);
+    });
 
 
 });
